@@ -1,0 +1,71 @@
+.login{
+  height :calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../../assets/image/loginImg1.jpg);
+  background-repeat: none;
+  background-size: cover;
+  font-family: 'Lora', serif;
+  z-index: 0;
+
+}
+.loginTitle{
+    font-size: 50px;
+    align-self: center;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm>label{
+    margin: 10px 0;
+    
+}
+.loginInput{
+    padding: 10px;
+    background-color: #fff;
+    border:none;
+    border-radius:12px;
+    min-width: 320px;
+    outline: none;
+
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: #fff;
+    border-radius: 12px;
+    width: 120px;
+    align-self: center;
+    padding: 8px;
+}
+.loginButton:disabled{
+   cursor: not-allowed;
+    background-color:lightcoral;
+}
+.loginButton:hover{
+    border: 1px solid black;
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color:coral;
+    cursor: pointer;
+    border: none;
+    border-radius:12px;
+    color: white;
+    padding: 8px;
+}
+.loginRegisterButton:hover{
+    background-color:teal;
+    border:1px solid black;
+}
